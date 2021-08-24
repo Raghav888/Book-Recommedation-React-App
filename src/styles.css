@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: azure;
+}
+#outer {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.msgBtn {
+  margin-right: 10px;
+  background-color: ghostwhite;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  border-color: gray;
+}
+.inner {
+  display: inline-block;
+}
+hr {
+  width: 50%;
+}
+.output-data {
+  border: 1px solid rgb(209, 213, 219);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
