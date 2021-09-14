@@ -11,6 +11,10 @@ var bookdictionary = {
     {
       Title: "You Don't Know JS",
       Rating: " 5/5"
+    },
+    {
+      Title: "JavaScript for Kids: A Playful Introduction to Programming",
+      Rating: "3.5/5"
     }
   ],
   Fiction: [
@@ -21,6 +25,10 @@ var bookdictionary = {
     {
       Title: "Harry Potter and the Sorcerer's Stone",
       Rating: " 2/5"
+    },
+    {
+      Title: "Ramayan",
+      Rating: " 5/5"
     }
   ],
   Finance: [
@@ -31,6 +39,10 @@ var bookdictionary = {
     {
       Title: "Loonshots",
       Rating: " 2/5"
+    },
+    {
+      Title: "Four Quadrants",
+      Rating: "5/5"
     }
   ]
 };
