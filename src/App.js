@@ -6,42 +6,52 @@ var bookdictionary = {
   JavaScript: [
     {
       Title: "Eloquent JavaScript",
+      Description:"Good Book",
       Rating: "3.5/5"
     },
     {
       Title: "You Don't Know JS",
+      Description:"Nice Book",
       Rating: " 5/5"
     },
     {
       Title: "JavaScript for Kids: A Playful Introduction to Programming",
+      Description:"Excellent Book",
       Rating: "3.5/5"
     }
   ],
   Fiction: [
     {
       Title: "Shiva Trilogy",
+      Description:"Exciting story",
       Rating: "5/5"
     },
     {
       Title: "Harry Potter and the Sorcerer's Stone",
+      
+      Description:"Thriller",
       Rating: " 2/5"
     },
     {
       Title: "Ramayan",
+      Description:"Nice",
       Rating: " 5/5"
     }
   ],
   Finance: [
     {
       Title: "Rich Dad Poor Dad",
+      Description:"Great book",
       Rating: "5/5"
     },
     {
       Title: "Loonshots",
+      Description:"Opens a door for new financial world",
       Rating: " 2/5"
     },
     {
       Title: "Four Quadrants",
+      Description:"Develops earning skills",
       Rating: "5/5"
     }
   ]
@@ -81,6 +91,9 @@ export default function App() {
                   <span>Title: </span>
                   {book.Title}
                 </h3>
+                                            <p>
+                  <span>Description: </span> {book.Description}
+                </p>
                 <p>
                   <span>Ratings: </span> {book.Rating}
                 </p>
